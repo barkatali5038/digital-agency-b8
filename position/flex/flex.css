@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner-container{
+    /* After use flex you can use justify conten and align item */
+    
+    display: flex;
+    /* justify-content: center;  (TWO type work in one below)  gap: 50px;*/
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+
+    /* for align item it's important to add height (vh means vartical height) */
+    height: 100vh;
+    border:  1px solid red;
+    align-items: center ;
+    /* align-items: baseline; */
+    /* align-items: last baseline; */
+
+    /* For exchange order or change position by use flex-direction */
+    flex-direction: row-reverse;
+}

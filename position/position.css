@@ -36,6 +36,7 @@
     border-radius: 50px;
     background-color: red;
     /* absolute position depent on parent (relative) */
-    position: fixed; /*but fixed or other things do not depent on parent div (relative)
-    top: 50px;
+    position: absolute; 
+    /*but fixed or other things do not depent on parent div (relative)*/
+    margin: 50px 50px 50px 50px;
 }

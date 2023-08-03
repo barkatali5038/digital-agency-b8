@@ -1,0 +1,64 @@
+/* This is defult system 0 */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav-container{
+    display: flex;
+    background-color: gray;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menus{
+    list-style: none ;
+    display: flex;
+    gap: 15px;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.banner-container{
+    height: 100vh;
+    background-image: url("/asset/image/background.jpg"),
+    linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.8));
+/* linear gradiant mix two colore and create a new color combination, GRADIENT will work after use blend-mode! */
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+text-align: center; 
+display: flex;
+align-items: center;
+
+}
+.primary{
+    color: red;
+}
+
+.title{
+    font-size: 55px;
+font-weight: bold;
+color: white;
+}
+
+.description{
+color: white;
+padding: 10px;
+width: 50%;
+/* text-align: center; */
+margin: auto;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: none;
+}
+
+.bg-primary{
+    background-color: red;
+    color: white;
+}
+
